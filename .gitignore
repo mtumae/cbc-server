@@ -74,12 +74,18 @@ secrets.yaml
 # ==========================================
 # IDEs and Editors (VS Code, PyCharm)
 # ==========================================
-.vscode/
 .idea/
 *.swp
 *.swo
 .DS_Store
 
 
-.csv
-.pkl
+# ==========================================
+# ML Artifacts & Datasets
+# ==========================================
+predictor/data-sets/
+*.pkl
+
+
+
+.gitignore
