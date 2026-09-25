@@ -1,0 +1,16 @@
+[project]
+name = "cbc-server"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "groq>=1.7.0",
+    "joblib>=1.6.0",
+    "kagglehub>=1.0.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+]
