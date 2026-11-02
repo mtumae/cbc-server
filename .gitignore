@@ -43,6 +43,7 @@ MANIFEST
 # ==========================================
 # Testing / Coverage
 # ==========================================
+temp_auto_push.bat
 htmlcov/
 .tox/
 .nox/
@@ -89,3 +90,4 @@ predictor/data-sets/
 
 
 .gitignore
+branch_structure.json
